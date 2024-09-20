@@ -1,0 +1,167 @@
+.container-fluid .navbar-brand{
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.container-fluid .navbar-brand img{
+    margin-bottom: 6px;
+
+}
+
+.offcanvas .offcanvas-header .offcanvas-title{
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+
+}
+
+
+nav{
+    border-bottom: 1px solid rgb(214, 213, 213);
+}
+
+.nav-item .nav-link{
+    font-weight: 12px;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+#offcanvas-credit{
+    font-family:"Josefin Sans", sans-serif ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+#offcanvas-credit .offcanvas-credit-h5a{
+    color: #8906e6;
+}
+
+#offcanvas-credit .offcanvas-credit-h5a .bx:hover{
+    color: white;
+    transition: ease-in-out,0.5s
+}
+
+
+
+.hero-container{
+    margin-top: 5em;
+
+}
+
+.hero-container .hero-text h1{
+    font-size: 44px;
+    
+}
+
+.hero-container .hero-text p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+
+.hero-container .hero-text .no-input{
+    width: 455px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0.3px solid rgb(179, 179, 179);
+}
+
+.hero-container .hero-text .no-input:visited{
+    border: 1px solid #8906e6 ;
+}
+
+.hero-container .hero-text .cta-btn .otp-btn{
+    width: 455px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #8906e6;
+    border: transparent;
+    font-weight: bolder;
+    color: white;
+}
+
+.home-page .home-page-h1{
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 44px;
+    letter-spacing: 0.5px;
+}
+
+.home-page .home-page-p{
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 12px;
+
+}
+
+
+
+.home-page .home-page-span2{
+    background: linear-gradient(to right,#8906e6,#ff00e2);
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+
+.col .card:hover{
+    border: 1.5px solid #8906e6;
+    transition: ease-in-out,0.1s;    
+    font-weight: bolder;
+}
+
+.col .card .card-text:hover{
+    color: #8906e6;
+    transition: ease-in-out,0.2s;
+}
+
+#homepage{
+
+}
+
+
+.uni a .card-link{
+    text-decoration: none;
+}
+
+
+#featured{  
+    margin-top: 11em;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 15em;
+}
+
+#featured .feature-card .card-title{
+    font-size: 22px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+
+
+}
+
+#featured .ftr-title{
+    margin-bottom: 6em;
+}
+
+#featured h2{
+    font-family: "Archivo Black", sans-serif;
+    letter-spacing: 2.9px;
+    font-size: 44px;
+}
+
+#footer{
+    padding: 0em;
+    background-color: #FAF9F6;
+    border-top: 0.5px solid rgb(214, 213, 213);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: "Josefin Sans", sans-serif ;
+    font-size: 18px;
+}

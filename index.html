@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcadMix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="[removal.ai]_8ddd18ea-4932-4b44-9bf9-5ea05a56238c-logo-white-bg.png">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!-- boxicons -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/> <!-- remixicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="[removal.ai]_8ddd18ea-4932-4b44-9bf9-5ea05a56238c-logo-white-bg.png" style="height: 40px; width: 40px; margin-right: 5px;" alt="">AcadMix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end " style="border-top-left-radius: 20px;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="[removal.ai]_8ddd18ea-4932-4b44-9bf9-5ea05a56238c-logo-white-bg.png" style="height: 40px; width: 40px; margin-right: 5px;" alt="">AcadMix</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class='bx bxs-gift' style="font-size: 22px; border: 1px solid rgb(214, 213, 213); color: #8906e6; padding: 10px;border-radius: 50%; margin-right: 8px;"></i>Refer a friend</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><button type="button" class="btn btn-outline-dark">Login</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><button type="button" class="btn" style="background-color: #8906e6; color: white;">Join for free</button></a>
+              </li>
+              
+            </ul>
+            <hr style="color: #8906e6;"> 
+            <section id="offcanvas-credit" style="margin-top: 14rem; background-color: #0B1215; padding: 25px;padding-bottom: 6rem; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;">
+              <h5 class="offcanvas-credit-h5" style="font-size: 16px; color: rgb(141, 141, 141);">
+                This webpage is developed by 
+              </h5>
+              <p class="offcanvas-credit-p" style="font-size: 22px; color: white;">
+                Sujal Sharma <span class="offcanvas-credit-span" style="font-size: 16px;">with <i class='bx bxs-heart' style="color: rgb(252, 67, 67);"></i></span>
+              </p>
+              <hr style="color: #8906e6;">
+              <h5 class="offcanvas-credit-h5a" ><a href="https://www.instagram.com/abe_sujal/" style="color: #8906e6;"><i class='bx bxl-instagram' style="margin-right: 3rem;"></i></a><a href="https://www.linkedin.com/in/sujal-sharma-6a832a214?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTQBYdIDgQ76dyGZp%2BGtcyg%3D%3D" style="color: #8906e6;"><i class='bx bxl-linkedin' style="margin-right: 3rem;"></i></a><a href="https://x.com/belikesujal" style="color: #8906e6;"><i class='bx bxl-twitter' style="margin-right: 3rem;"></i></a></i><a href="https://github.com/code-sujal" style="color: #8906e6;"><i class='bx bxl-github'></i></a></h5>
+            </section>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+      <div class="container hero-container" >
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="home-illustration.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6 hero-text">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Crack your University exams with top   professors</h1>
+            <p class="lead">Over <span class="hero-span" style="color: #8906e6;">10K+</span>students trust us for their preparation</p>
+            <div class="input-ctrl">
+              <input type="tel" placeholder="Enter your number" class="no-input">
+              <p class="otp-text" style="font-size: 17px; margin-top: 5px; color: rgb(78, 78, 78);font-weight: bold;"><small>We'll send you an OTP for verification</small></p>
+            </div>
+            <div class="cta-btn">
+              <a href="#homepage"><button class="otp-btn">Join for free</button></a>
+            </div>
+  
+          </div>
+        </div>
+  
+      </div>
+      <section id="homepage">
+        <div class="container home-page">
+          <h2 class="home-page-h1">Popular <span class="home-page-span" style="">Universities</span></h2>
+          <p class="home-page-p">Browse our collection of <span class="home-page-span2">best study material</span></p>
+        </div>
+        <div class="container uni">
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 5rem;">
+            <a href="" class="card-link" style="text-decoration: none;">
+              <div class="col" style="">
+                <div class="card h-100 " style="text-align:center">
+                  <center><img src="vtu-logo.png" style="height: 140px; width: 140px; margin-top: 15px;" class="card-img-top" alt="..."></center>
+                  <div class="card-body">
+                    <h5 class="card-title">VTU</h5>
+                    <p class="card-text">Visvesaraya Technical University</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary" style="font-weight: bold;"><i class='bx bx-user-plus' style="font-size: 24px; color: #8906e6; margin-right: 7px; margin-top: px;"></i>50K+ students enrolled</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="" class="card-link" style="text-decoration: none;">
+            <div class="col" style="">
+              <div class="card h-100 " style="text-align:center;">
+                <center><img src="du.png" style="height: 140px; width: 140px; margin-top: 15px;" class="card-img-top" alt="..."></center>
+                <div class="card-body">
+                  <h5 class="card-title">DU</h5>
+                  <p class="card-text">Delhi University</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary" style="font-weight: bold;"><i class='bx bx-user-plus' style="font-size: 24px; color: #8906e6;margin-right: 7px"></i>12K+ students enrolled</small>
+                </div>
+              </div>
+            </div></a>
+            <a href="" class="card-link" style="text-decoration: none;">
+            <div class="col" style="">
+              <div class="card h-100 " style="text-align:center;">
+                <center><img src="bits.jpeg" style="height: 140px; width: 140px; margin-top: 15px;" class="card-img-top" alt="..."></center>
+                <div class="card-body">
+                  <h5 class="card-title">BITS</h5>
+                  <p class="card-text">Birla Institute of Technology</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary" style="font-weight: bold;"><i class='bx bx-user-plus' style="font-size: 24px; color: #8906e6;margin-right: 7px"></i>7K+ students enrolled</small>
+                </div>
+              </div>
+            </div></a>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <a href="" class="card-link" style="text-decoration: none;">
+            <div class="col" style="">
+              <div class="card h-100 " style="text-align:center;margin-top: 32px;">
+                <center><img src="iisc.jpg" style="height: 140px; width: 140px; margin-top: 15px;" class="card-img-top" alt="..."></center>
+                <div class="card-body">
+                  <h5 class="card-title">IISC</h5>
+                  <p class="card-text">Indian Institute of Science</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary" style="font-weight: bold;"><i class='bx bx-user-plus' style="font-size: 24px; color: #8906e6;margin-right: 7px"></i>2K+ students enrolled</small>
+                </div>
+              </div>
+            </div></a>
+            <a href="" class="card-link" style="text-decoration: none;">
+
+            <div class="col" style="">
+              <div class="card h-100 " style="text-align:center;margin-top: 32px;">
+                <center><img src="ju.webp" style="height: 140px; width: 140px; margin-top: 15px;" class="card-img-top" alt="..."></center>
+                <div class="card-body">
+                  <h5 class="card-title">JDU</h5>
+                  <p class="card-text">Jadavpur University</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary" style="font-weight: bold;"><i class='bx bx-user-plus' style="font-size: 24px; color: #8906e6;margin-right: 7px"></i>3K+ students enrolled</small>
+                </div>
+              </div>
+            </div></a>
+            <a href="" class="card-link" style="text-decoration: none;">
+            <div class="col" style="">
+              <div class="card h-100 " style="text-align:center;margin-top: 32px;">
+                <center><img src="adn.jpeg" style="height: 140px; width: 140px; margin-top: 15px;" class="card-img-top" alt="..."></center>
+                <div class="card-body">
+                  <h5 class="card-title">ADANI</h5>
+                  <p class="card-text">Adani University</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary" style="font-weight: bold;"><i class='bx bx-user-plus' style="font-size: 24px; color: #8906e6;margin-right: 7px"></i>15K+ students enrolled</small>
+                </div>
+              </div>
+            </div></a>
+          </div>
+        </div>
+  
+      </section>
+
+      <section id="featured" >
+        <center><div class="ftr-title">
+          <h2>Featuring Courses</h2>
+        <p>Explore batches of top teachers</p>
+        </div>
+      </center>
+        <div class="container feature-card ">
+          <div class="card mb-3" style="max-width: 1240px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="feature.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="feature-card card-body">
+                  <h5 class="card-title">Introducing <img src="star.png" style="height: 22px; margin-right: 5px;" alt=""></h5>
+                  <h3 class="feature-head" style="font-weight: bold;">
+                    AcadMix Creative Engineering Batch
+                  </h3>
+                  <p class="card-text">Admissions open <b style="color: rgb(0, 206, 0);">Online</b></p>
+                  <p class="card-text" style="margin-top: 4rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Learn from top educators</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>In-person classes & doubt solving</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Bonus access to online learning</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Online test series</p>
+
+                </div>
+                <div class="d-grid gap-2 d-md-block" style="margin-top: 2em; margin-bottom: 2em;">
+                  <button class="btn btn-outline-dark" type="button">Join batch</button>
+                  <button class="btn" style="background-color: #8906e6; color: white; margin-left: 8px;" type="button">Need help?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container feature-card " style="margin-top: 4rem;">
+          <div class="card mb-3" style="max-width: 1240px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="f2.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="feature-card card-body">
+                  <h5 class="card-title">Introducing <img src="star.png" style="height: 22px; margin-right: 5px;" alt=""></h5>
+                  <h3 class="feature-head" style="font-weight: bold;">
+                    AcadMix Electrical Engineering Batch
+                  </h3>
+                  <p class="card-text">Admissions open <b style="color: rgb(0, 206, 0);">Online</b></p>
+                  <p class="card-text" style="margin-top: 4rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Learn from top educators</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>In-person classes & doubt solving</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Bonus access to online learning</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Online test series</p>
+
+                </div>
+                <div class="d-grid gap-2 d-md-block" style="margin-top: 2em; margin-bottom: 2em;">
+                  <button class="btn btn-outline-dark" type="button">Join batch</button>
+                  <button class="btn" style="background-color: #8906e6; color: white; margin-left: 8px;" type="button">Need help?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container feature-card " style="margin-top: 4rem;">
+          <div class="card mb-3" style="max-width: 1240px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="f3.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="feature-card card-body">
+                  <h5 class="card-title">Introducing <img src="star.png" style="height: 22px; margin-right: 5px;" alt=""></h5>
+                  <h3 class="feature-head" style="font-weight: bold;">
+                    AcadMix Nuclear Engineering Batch
+                  </h3>
+                  <p class="card-text">Admissions open <b style="color: rgb(0, 206, 0);">Online</b></p>
+                  <p class="card-text" style="margin-top: 4rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Learn from top educators</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>In-person classes & doubt solving</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Bonus access to online learning</p>
+                  <p class="card-text" style="margin-top: 1rem; font-size: 19px;"><i class='bx bx-check-circle' style="margin-right: 10px; font-size: 18px; color: #8906e6; "></i>Online test series</p>
+
+                </div>
+                <div class="d-grid gap-2 d-md-block" style="margin-top: 2em; margin-bottom: 2em;">
+                  <button class="btn btn-outline-dark" type="button">Join batch</button>
+                  <button class="btn" style="background-color: #8906e6; color: white; margin-left: 8px;" type="button">Need help?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="footer">
+        <div class="container" style="margin-top: em;">
+          <footer class="py-5">
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3" style="font-size: 12px;">
+                <h5>Popular Goals</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">VTU</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">DU</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">BITS</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">JDU</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">IITs</a></li>
+                </ul>
+              </div>
+        
+              
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Features</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Live classes</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Doubt solving</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Test series</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Expert faculty</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Affordable</a></li>
+                </ul>
+              </div>
+        
+              
+              
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>©2024,<img src="[removal.ai]_8ddd18ea-4932-4b44-9bf9-5ea05a56238c-logo-white-bg.png" alt="" style="height: 36px;">AcadMix, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis " style="font-size: 22px; color: ;" href="https://x.com/belikesujal"><i class='bx bxl-twitter'></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis " style="font-size: 22px; color: ;" href="https://www.instagram.com/abe_sujal/"><i class='bx bxl-instagram-alt'></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis " style="font-size: 22px; color: ;" href="https://www.linkedin.com/in/sujal-sharma-6a832a214?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTQBYdIDgQ76dyGZp%2BGtcyg%3D%3D"><i class='bx bxl-linkedin'></i></a></li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+      </section>
+</body>
+</html
